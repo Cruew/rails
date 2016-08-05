@@ -3,12 +3,25 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 h1 {
-	color: black;
+	color: lightgreen;
 	font-family: arial;
+}
+
+h2,
+h1 {
 	text-align: center;
 }
 
 h2 {
-	text-align: center;
+	color: #7573c0;
 }
 
+.image, 
+.info {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.info {
+	margin-top: 20px;
+}
