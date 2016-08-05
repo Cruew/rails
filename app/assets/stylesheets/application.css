@@ -17,3 +17,22 @@
 footer {
 	margin-top: 50px;
 }
+
+.navbar-inverse .navbar-nav>li>a{
+	font-family: "League Spartan","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: green;
+}
+
+.navbar {
+	background-color: #04B2B1;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}

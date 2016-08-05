@@ -2,3 +2,26 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.description {
+	text-align: left;
+	font-size: 15px;
+}
+
+.header {
+	font-size: 30px;
+	font-weight: bold;
+	color: lightblue;
+}
+
+.descript-text {
+	width: 350px;
+}
+
+#title {
+	font-family: 'oxtail_ot_blackblack', sans-serif;
+	color: #003865;
+}
+
+.radius {
+	border-radius: 50%;
+}
