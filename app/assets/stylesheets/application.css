@@ -33,6 +33,9 @@ footer {
 	background-color: #04B2B1;
 }
 
-.navbar-inverse .navbar-brand {
+.navbar-inverse .navbar-brand,
+.navbar-default .navbar-text {
 	color: white;
 }
+
+
