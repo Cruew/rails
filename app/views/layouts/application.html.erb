@@ -38,7 +38,7 @@
 	<div id="search-bar">
 		<%= form_tag("/products", method: "get", class: "pull-right") do %>
 			<%= label_tag(:q, "Looking for something?") %>
-			<%= text_field_tag(:q) %>
+			<%= text_field_tag(:q, nil, placeholder: "Search Here", class: "btn btn-default") %>
 			<%= submit_tag("Search", :class => "btn btn-default") %>
 		<% end %>
 	</div>
