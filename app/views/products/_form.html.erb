@@ -11,27 +11,29 @@
     </div>
   <% end %>
 
+  <hr class="colorgraph">
+
   <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
+    <%= f.label :name, :class => "product-description" %><br>
+    <%= f.text_field :name, :class => "btn btn-default", :placeholder => "Name of Product" %>
   </div>
   <div class="field">
-    <%= f.label :description %><br>
-    <%= f.text_field :description %>
+    <%= f.label :description, :class => "product-description"  %><br>
+    <%= f.text_area :description, :class => "btn btn-default", :placeholder => "Description" %>
   </div>
   <div class="field">
-    <%= f.label :textimage_url %><br>
-    <%= f.text_field :textimage_url %>
+    <%= f.label :image_url, :class => "product-description"  %><br>
+    <%= f.text_field :textimage_url, :class => "btn btn-default", :placeholder => "Image URL" %>
   </div>
   <div class="field">
-  <%= f.label :colour %><br>
-  <%= f.text_field :colour %>
+  <%= f.label :colour, :class => "product-description"  %><br>
+  <%= f.text_field :colour, :class => "btn btn-default", :placeholder => "Colour " %>
   </div>
   <div class="field">
-  <%= f.label :price %><br>
-  <%= f.text_field :price %>
+  <%= f.label :price, :class => "product-description"  %><br>
+  <%= f.text_field :price, :class => "btn btn-default", :placeholder => "Price" %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit :class => " btn btn-primary" %>
   </div>
 <% end %>
