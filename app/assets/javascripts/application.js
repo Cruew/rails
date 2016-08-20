@@ -15,11 +15,15 @@
 //= require turbolinks
 //= require_tree .
 
-$(document).ready(function() {
-	$("#search-bar").hide();
-    $("#search").click(function(event) {
-        event.preventDefault();
-        $("#search-bar").toggle();
-    });
-});
+// $(document).ready(function() {
+//	$("#search-bar").hide();
+//    $("#search").click(function(event) {
+//        event.preventDefault();
+//        $("#search-bar").toggle();
+//    });
+// });
 
+ function showhide(id) {
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+ }
