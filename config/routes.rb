@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :user, :path => '', :path_names => {:sign_in => 'login', :sign_out => 'logout'}
+  resources :users
   resources :products
 
   get 'static_pages/about'
@@ -10,6 +12,8 @@ Rails.application.routes.draw do
   get 'static_pages/landing_page'
 
   post 'static_pages/thank_you'
+
+
 
 
   resources :orders, only: [:index, :show, :create, :destroy]

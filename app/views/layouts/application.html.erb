@@ -31,7 +31,16 @@
 					<li>
 						<a href="javascript:showhide('search-bar')" id="search"><span class="glyphicon glyphicon-search search_bar" type="button"></span></a>
 					</li>
-				</ul>
+					
+					  <li>
+					  <% if user_signed_in? %>
+					    <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+					  <% else %>
+					    <%= link_to('Login', new_user_session_path) %>
+					  <% end %>
+					  </li>
+					</ul>
+				
 			</nav>
 		</div> <!-- end container -->
 	</nav> <!-- end nav -->
@@ -43,6 +52,7 @@
 		<% end %>
 	</div>
 	<br>
+	<p class="notice"><%= notice %></p>
 
 
 	<%= yield %>

@@ -1,0 +1,27 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.welcome-message {
+	text-align: center;
+	font-size: 30px;
+	color: black;
+}
+
+.login-input {
+	width: 271px;
+	margin: 0 auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, 2sans-serif;
+}
+
+.login-button {
+	width: 271px;
+}
+
+#password-reset {
+	text-align: center;
+}
+
+.submit-btn {
+	padding: 10px;
+}
