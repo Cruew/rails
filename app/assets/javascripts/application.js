@@ -27,3 +27,5 @@
     var e = document.getElementById(id);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
  }
+
+$('#alert').delay().fadeOut();

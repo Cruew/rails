@@ -8,3 +8,4 @@ class UserMailer < ApplicationMailer
         :subject => "A new contact form message from #{name}")
   end
 end
+
